@@ -18,6 +18,8 @@ public class PlayerInfo
     public int cardColor;
     public int cardCountMax = 20;
     public int cardCountCurr = 0;
+    public float Time;
+    public float currTime = 0;
 
 
 

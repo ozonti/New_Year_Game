@@ -30,7 +30,8 @@ public class TimerManager : MonoBehaviour
         }
         else
         {
-            //Time.timeScale = 0;
+            timeLeft = maxTime;
+            Progress.Instance.PlayerInfo.currTime = 1;
         }
     }
 }

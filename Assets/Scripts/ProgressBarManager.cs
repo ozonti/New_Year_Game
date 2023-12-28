@@ -15,6 +15,7 @@ public class ProgressBarManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cur = 0;
         bar = GetComponent<Image>();
         maximum = Progress.Instance.PlayerInfo.cardCountMax;
     }

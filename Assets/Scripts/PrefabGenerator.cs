@@ -26,7 +26,7 @@ public class PrefabGenerator : MonoBehaviour
         Image imageComp = pre.GetComponent<Image>();
         int rand = Random.Range(0, 8);
         Progress.Instance.PlayerInfo.cardColor = rand;
-        Debug.Log(rand);
+        //Debug.Log(rand);
         imageComp.sprite = Images[rand];
 
         RectTransform rectTransform = pre.GetComponent<RectTransform>();
